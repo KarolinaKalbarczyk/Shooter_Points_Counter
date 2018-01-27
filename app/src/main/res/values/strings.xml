@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Shooter Point Counter</string>
+    <string name="first_shooter_name">First Shooter Name</string>
+    <string name="_0_">0</string>
+    <string name="_0__">0</string>
+    <string name="_10">10</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="reload_gun">Reload gun!</string>
+    <string name="points">Points</string>
+    <string name="second_shooter_name">Second Shooter Name</string>
+    <string name="__0_">0</string>
+    <string name="___0_">0</string>
+    <string name="_10_">10</string>
+    <string name="_9_">9</string>
+    <string name="_8_">8</string>
+    <string name="_7_">7</string>
+    <string name="_6_">6</string>
+    <string name="_5_">5</string>
+    <string name="_4_">4</string>
+    <string name="_3_">3</string>
+    <string name="_2_">2</string>
+    <string name="_1_">1</string>
+    <string name="reload_gun2">Reload Gun!</string>
+    <string name="reset">RESET</string>
+</resources>

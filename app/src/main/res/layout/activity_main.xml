@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.shooterpointcounter.R"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/gun3"
+                />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/first_shooter_name"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="#999999"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/_0_"
+                android:textSize="25sp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/PierwszaFirst"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/_0__"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/DrugaFirst"/>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="@string/_10"
+            android:textSize="15sp"
+            android:background="@drawable/roundedcorners"
+            android:layout_marginTop="20dp"
+            android:id="@+id/TenPointsForFirst"
+            android:onClick="TenPointsForFirst"
+            tools:ignore="OnClick" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_9"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/NinePointForFirst"
+                android:onClick="NinePointsForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_8"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/EightPointForFirst"
+                android:onClick="EightPointsForFirst"
+                android:layout_toRightOf="@id/NinePointForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_7"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/SevenPointsForFirst"
+                android:onClick="SevenPointsForFirst"
+                android:layout_toRightOf="@id/EightPointForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_6"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/SixPointsForFirst"
+                android:onClick="SixPointsForFirst"
+                android:layout_below="@id/NinePointForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_5"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/FivePointsForFirst"
+                android:onClick="FivePointsForFirst"
+                android:layout_below="@id/EightPointForFirst"
+                android:layout_toRightOf="@id/SixPointsForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_4"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/FourPointsForFirst"
+                android:onClick="FourPointsForFirst"
+                android:layout_below="@id/SevenPointsForFirst"
+                android:layout_toRightOf="@id/FivePointsForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_3"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/ThreePointsForFirst"
+                android:onClick="ThreePointsForFirst"
+                android:layout_below="@id/SixPointsForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_2"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/TwoPointsForFirst"
+                android:onClick="TwoPointsForFirst"
+                android:layout_below="@id/FivePointsForFirst"
+                android:layout_toRightOf="@id/ThreePointsForFirst"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners"
+                android:text="@string/_1"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/OnePointsForFirst"
+                android:onClick="OnePointsForFirst"
+                android:layout_below="@id/FourPointsForFirst"
+                android:layout_toRightOf="@id/TwoPointsForFirst"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="@string/reload_gun"
+            android:textSize="15sp"
+            android:background="@drawable/roundedcorners"
+            android:layout_marginTop="3dp"
+            android:id="@+id/changegun1"
+            android:onClick="ChangeGun1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/points"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="185dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="@string/second_shooter_name"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="#999999"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/__0_"
+                android:textSize="25sp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/PierwszaSecond"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/___0_"
+                android:textSize="25sp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/DrugaSecond"/>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="@string/_10_"
+            android:textSize="15sp"
+            android:background="@drawable/roundedcorners_2"
+            android:layout_marginTop="20dp"
+            android:id="@+id/TenPointsForSecond"
+            android:onClick="TenPointsForSecond"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_9_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/NinePointForSecond"
+                android:onClick="NinePointsForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_8_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/EightPointForSecond"
+                android:onClick="EightPointsForSecond"
+                android:layout_toRightOf="@id/NinePointForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_7_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/SevenPointsForSecond"
+                android:onClick="SevenPointsForSecond"
+                android:layout_toRightOf="@id/EightPointForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_6_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/SixPointsForSecond"
+                android:onClick="SixPointsForSecond"
+                android:layout_below="@id/NinePointForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_5_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/FivePointsForSecond"
+                android:onClick="FivePointsForSecond"
+                android:layout_below="@id/EightPointForSecond"
+                android:layout_toRightOf="@id/SixPointsForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_4_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/FourPointsForSecond"
+                android:onClick="FourPointsForSecond"
+                android:layout_below="@id/SevenPointsForSecond"
+                android:layout_toRightOf="@id/FivePointsForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_3_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/ThreePointsForSecond"
+                android:onClick="ThreePointsForSecond"
+                android:layout_below="@id/SixPointsForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_2_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/TwoPointsForSecond"
+                android:onClick="TwoPointsForSecond"
+                android:layout_below="@id/FivePointsForSecond"
+                android:layout_toRightOf="@id/ThreePointsForSecond"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/roundedcorners_2"
+                android:text="@string/_1_"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="6dp"
+                android:id="@+id/OnePointsForSecond"
+                android:onClick="OnePointsForSecond"
+                android:layout_below="@id/FourPointsForSecond"
+                android:layout_toRightOf="@id/TwoPointsForSecond"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="@string/reload_gun2"
+            android:textSize="15sp"
+            android:background="@drawable/roundedcorners_2"
+            android:layout_marginTop="3dp"
+            android:id="@+id/changegun2"
+            android:onClick="ChangeGun2"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:text="@string/reset"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/reset"
+        android:onClick="reset"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
