@@ -160,17 +160,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void ZeroPointsForFirst(View view) {
-        if (NumberOfGames1 == 1) {
-            PierwszaFirst = PierwszaFirst;
-            displayForPierwszaFirst(PierwszaFirst);
-        }
-        if (NumberOfGames1 == 2) {
-            DrugaFirst = DrugaFirst;
-            displayForDrugaFirst(DrugaFirst);
-        }
-    }
-
 
     public void TenPointsForSecond(View view) {
         if (NumberOfGames2 == 1) {
@@ -278,17 +267,6 @@ public class MainActivity extends AppCompatActivity {
         }
         if (NumberOfGames2 == 2) {
             DrugaSecond = DrugaSecond + 1;
-            displayForDrugaSecond(DrugaSecond);
-        }
-    }
-
-    public void ZeroPointsForSecond(View view) {
-        if (NumberOfGames2 == 1) {
-            PierwszaSecond = PierwszaSecond;
-            displayForPierwszaSecond(PierwszaSecond);
-        }
-        if (NumberOfGames2 == 2) {
-            DrugaSecond = DrugaSecond;
             displayForDrugaSecond(DrugaSecond);
         }
     }
