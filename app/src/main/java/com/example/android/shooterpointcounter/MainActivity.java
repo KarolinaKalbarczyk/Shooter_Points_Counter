@@ -165,8 +165,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
-
     public void TenPointsForSecond(View view) {
         if (NumberOfGames2 == 1) {
             PierwszaSecond = PierwszaSecond + 10;
