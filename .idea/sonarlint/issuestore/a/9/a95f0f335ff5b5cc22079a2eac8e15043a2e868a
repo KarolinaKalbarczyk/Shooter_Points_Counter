@@ -1,0 +1,13 @@
+
+nsquid:S00116"XRename this field "PierwszaFirst" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß©İ
+psquid:S00116"URename this field "DrugaFirst" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ©½àúÿÿÿÿ
+osquid:S00116"YRename this field "PierwszaSecond" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïã£å
+lsquid:S00116"VRename this field "DrugaSecond" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ñÚ–
+tsquid:S00116"YRename this field "NumberOfGames1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­…»Íÿÿÿÿÿ
+osquid:S00116"YRename this field "NumberOfGames2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÀç«
+Zsquid:UselessImportCheck"3Remove this unused import 'android.graphics.Color'.(øãíòşÿÿÿÿ
+Xsquid:UselessImportCheck"1Remove this unused import 'android.view.Gravity'.(ÎÎÎıÿÿÿÿ
+Tsquid:UselessImportCheck"-Remove this unused import 'org.w3c.dom.Text'.(¶Äè‹şÿÿÿÿ
+^squid:UselessImportCheck"<Remove this unused import 'android.support.annotation.Keep'.(Ğ‰ê
+Ysquid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òıÿÿÿÿ
+asquid:UselessImportCheck":Remove this unused import 'android.widget.RelativeLayout'.(ü¯ğõşÿÿÿÿ

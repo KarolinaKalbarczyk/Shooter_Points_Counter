@@ -8,4 +8,53 @@
         <item name="colorAccent">#FFFFFF</item>
     </style>
 
+    <style name="PointsButton" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/layout_width_PointsButton</item>
+        <item name="android:layout_height">@dimen/layout_height_PointsButton</item>
+        <item name="android:background">@drawable/roundedcorners</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop_PointsButton</item>
+    </style>
+
+
+    <style name="Button" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/layout_width_Button</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/textSize_Button</item>
+        <item name="android:background">@drawable/roundedcorners_2</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft_Button</item>
+    </style>
+
+    <style name="Scores" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/textSize_Scores</item>
+        <item name="android:textColor">#FFFFFF</item>
+     </style>
+
+
+    <style name="Reset" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSize_Reset</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="Name" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/textSize_Name</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop_Name</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft_Name</item>
+        <item name="android:layout_marginBottom">@dimen/layout_marginBottom_Name</item>
+    </style>
+
 </resources>

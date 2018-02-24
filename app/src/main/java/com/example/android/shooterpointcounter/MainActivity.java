@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
     int NumberOfGames1 = 1;
     int NumberOfGames2 = 1;
+
+    TextView changegun1;
+    TextView changegun2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void displayForChangeGun1(int score1) {
-        TextView changegun1 = (TextView) findViewById(R.id.changegun1);
+        changegun1 = (TextView) findViewById(R.id.changegun1);
         changegun1.setText(String.valueOf(score1));
     }
 
@@ -45,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void displayForChangeGun2(int score2) {
-        TextView changegun2 = (TextView) findViewById(R.id.changegun2);
+        changegun2 = (TextView) findViewById(R.id.changegun2);
         changegun2.setText(String.valueOf(score2));
     }
 
@@ -160,16 +165,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void ZeroPointsForFirst(View view) {
-        if (NumberOfGames1 == 1) {
-            PierwszaFirst = PierwszaFirst;
-            displayForPierwszaFirst(PierwszaFirst);
-        }
-        if (NumberOfGames1 == 2) {
-            DrugaFirst = DrugaFirst;
-            displayForDrugaFirst(DrugaFirst);
-        }
-    }
 
 
     public void TenPointsForSecond(View view) {
@@ -278,17 +273,6 @@ public class MainActivity extends AppCompatActivity {
         }
         if (NumberOfGames2 == 2) {
             DrugaSecond = DrugaSecond + 1;
-            displayForDrugaSecond(DrugaSecond);
-        }
-    }
-
-    public void ZeroPointsForSecond(View view) {
-        if (NumberOfGames2 == 1) {
-            PierwszaSecond = PierwszaSecond;
-            displayForPierwszaSecond(PierwszaSecond);
-        }
-        if (NumberOfGames2 == 2) {
-            DrugaSecond = DrugaSecond;
             displayForDrugaSecond(DrugaSecond);
         }
     }
