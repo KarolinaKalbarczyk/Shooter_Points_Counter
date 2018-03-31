@@ -15,3 +15,5 @@ Enjoy and shoot accurately!
 Best regards 
 K.
 (almost)AndroidDeveloper 
+
+<img src="https://github.com/KarolinaKalbarczyk/Screenshots/blob/master/ShooterpointCounter.png" width=200>
